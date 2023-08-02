@@ -1,0 +1,21 @@
+#abc{
+	border: 5px red;
+	background-color: yellow ;
+}
+#home{
+	font-size: 50px;
+	font-style: italic;
+}
+#contact{
+    font-size: 50px;
+}
+#about{
+	font-size: 50px;
+}
+div{
+                  width: 300px;
+                  display: inline-block;
+                  padding: 10px;
+                  margin: 10px;
+                  box-shadow: 0 0 10px whitesmoke;
+            }

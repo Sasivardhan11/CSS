@@ -1,0 +1,53 @@
+p{
+	color: white;
+	font-size: 30px;
+}
+div{
+	background-color: yellow;
+	height: 200px;
+	width: 200px;
+}
+h1{
+	background-color: whitesmoke;
+	color: red;
+	font-size: 60px;
+}
+*{
+	padding: 2px;
+	font-family: cursive;
+}
+input[type="text"]{
+	color: red;
+}
+input[type="number"]{
+	color: brown;
+}
+input[type="email"]{
+	color: pink;
+}
+a[href]{
+	background-color: yellow;
+}
+img[src]{
+	background-color: blue;
+}
+a:hover{
+	font-style: initial;
+	background-color: whitesmoke;               /*pseudo selectors*/
+	font-size: 40px;
+}
+a:link{
+	color: darkblue;
+}
+a:active{
+	color: green;
+	background-color: blue;
+}
+a:visited{
+	color: red;
+}
+body{
+	background-image: url('imagess/pg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

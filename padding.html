@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>padding</title>
+	<style type="text/css">
+		.d1{
+			height: 300px;
+			width: 500px;
+			background-color: skyblue;
+		    margin: 40px 20px 40px 20px;
+		    padding: 40px 40px 40px 40px;
+		}
+		.d2{
+			height: 220px;
+			width: 420px;
+			padding: 40px 40px 40px 40px;
+			background-color: yellow;
+		}
+		.d3{
+			height: 140px;
+			width: 340px;
+			background-color: darkslateblue;
+			padding: 40px 40px 40px 40px;
+		}
+		.d4{
+			
+			height: 60px;
+			width: 260px;
+			background-color: blue;
+			padding: 20px 40px 40px 40px;
+		}
+		*{
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="d1">
+			<p>margin</p>
+		<div class="d2">
+			<p>border</p>
+			<div class="d3">
+				<p>padding</p>
+				<div class="d4">content</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
